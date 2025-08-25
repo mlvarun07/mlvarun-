@@ -54,25 +54,6 @@
     a.btn{display:inline-block;padding:8px 12px;border-radius:8px;background:linear-gradient(90deg,var(--accent1),var(--accent2));color:#061022;text-decoration:none;font-weight:700}
     .muted{color:#9fb7d9b0}
   </style>
-    import { Analytics } from '@vercel/analytics/next';
- 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
-  return (
-    <html lang="en">
-      <head>
-        <title>Next.js</title>
-      </head>
-      <body>
-        {children}
-        <Analytics />
-      </body>
-    </html>
-  );
-}
 </head>
 <body>
   <div class="wrap">
@@ -193,6 +174,7 @@ welcome to my page...
   </script>
 </body>
 </html>
+
 
 
 
